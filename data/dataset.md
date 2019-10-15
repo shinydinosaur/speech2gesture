@@ -54,7 +54,9 @@ Gestures
     └── keypoints_simple
 ```
  
-4. Download the speaker videos from youtube. Use the script attached:
+4. Download the videos_links.csv file into your dataset folder.
+ 
+5. Download the speaker videos from youtube. Use the script attached:
 `python -m data.download.download_youtube --base_path </path/to/dataset base folder> --speaker <speaker_name>`
 
 Speaker names include: 
